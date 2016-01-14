@@ -12,6 +12,8 @@ You can find the test suite for this application in the ```spec/models``` direct
 
 ## Instructions
 
-* Create a table by hand named ```students``` that has the columns: ```first_name``` and ```last_name```, this should be accomplished by creating a new database migration
+* Create a table by hand named ```students``` that has the columns: ```first_name``` and ```last_name``` – this should be accomplished by creating a new database migration
 * Create a model for the students' table that inherits from ActiveRecord::Base
-* Implement a ```to_s``` instance method in the model that will return the concatenated first and last names for students, example: ```first_name: "Daenerys", last_name: "Targaryen" => "Daenerys Targaryen"```
+* Implement a ```to_s``` instance method in the model that will return the concatenated first and last names for students. For example: ```first_name: "Daenerys", last_name: "Targaryen" => "Daenerys Targaryen"```
+
+<a href='https://learn.co/lessons/rails-activerecord-model-rails-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
