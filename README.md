@@ -8,7 +8,7 @@
 
 ## Building a Model
 
-You can find the test suite for this application in the ```spec/models``` directory and run them with the command: ```bundle exec rspec```, this lab tests to ensure that your app can create records and have an instance method that can be called on the model.
+You can find the test suite for this application in the ```spec/models``` directory and run them with the command: ```bundle exec rspec```. This lab tests to ensure that your app can create records and have an instance method that can be called on the model.
 
 ## Instructions
 
