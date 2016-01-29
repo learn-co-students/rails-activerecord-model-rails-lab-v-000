@@ -16,4 +16,4 @@ You can find the test suite for this application in the ```spec/models``` direct
 * Create a model for the students' table that inherits from ActiveRecord::Base
 * Implement a ```to_s``` instance method in the model that will return the concatenated first and last names for students. For example: ```first_name: "Daenerys", last_name: "Targaryen" => "Daenerys Targaryen"```
 
-<a href='https://learn.co/lessons/rails-activerecord-model-rails-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-activerecord-model-rails-lab' title='ActiveRecord Model Rails Lab'>ActiveRecord Model Rails Lab</a> on Learn.co and start learning to code for free.</p>
