@@ -8,7 +8,7 @@
 
 ## Building a Model
 
-You can find the test suite for this application in the ```spec/models``` directory and run them with the command: ```bundle exec rspec```. This lab tests to ensure that your app can create records and have an instance method that can be called on the model.
+You can find the test suite for this application in the ```spec/models``` directory and run them with the command: ```bundle exec rspec```. This lab tests to ensure that your app can create records and that it has an instance method that can be called on the model.
 
 ## Instructions
 
@@ -17,3 +17,5 @@ You can find the test suite for this application in the ```spec/models``` direct
 * Implement a ```to_s``` instance method in the model that will return the concatenated first and last names for students. For example: ```first_name: "Daenerys", last_name: "Targaryen" => "Daenerys Targaryen"```
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-activerecord-model-rails-lab' title='ActiveRecord Model Rails Lab'>ActiveRecord Model Rails Lab</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-activerecord-model-rails-lab'>ActiveRecord Models and Rails Lab</a> on Learn.co and start learning to code for free.</p>
