@@ -145,3 +145,4 @@ Migrating to Students (20160515225523)
 Migrating to Students (20160515225523)
   [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Migrating to Students (20160515225523)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
