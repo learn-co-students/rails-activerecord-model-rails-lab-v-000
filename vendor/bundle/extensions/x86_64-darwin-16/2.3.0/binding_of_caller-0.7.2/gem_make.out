@@ -1,0 +1,16 @@
+current directory: /Users/matthewborg/developing/learn.co/rails/rails-activerecord-model-rails-lab-v-000/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+/Users/matthewborg/.rvm/rubies/ruby-2.3.3/bin/ruby -r ./siteconf20170224-25454-710s7z.rb extconf.rb
+
+current directory: /Users/matthewborg/developing/learn.co/rails/rails-activerecord-model-rails-lab-v-000/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/matthewborg/developing/learn.co/rails/rails-activerecord-model-rails-lab-v-000/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/matthewborg/developing/learn.co/rails/rails-activerecord-model-rails-lab-v-000/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.
