@@ -1,15 +1,15 @@
 require 'rails_helper'
 
-describe Student do
-  before(:each) do
-    @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
-  end
+RSpec.describe Student, type: :model do
 
   it 'can be created' do
-    expect(@student).to be_valid
+    student = Student.create!(first_name: "John", last_name: "Smith")
+    expect(student).to be_valid
   end
 
-  it 'has a to_s instance method' do
-    expect(@student.to_s).to eq("Daenerys Targaryen")
+  it 'has a to_s method' do
+    student = Student.create!(first_name: "John", last_name: "Smith")
+    expect(student.to_s).to eq("John Smith")
   end
+
 end
