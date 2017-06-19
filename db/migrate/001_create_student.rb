@@ -1,4 +1,4 @@
-class CreateStudents < ActiveRecord::Migration
+class CreateStudent < ActiveRecord::Migration
   def change
     create_table :students do |s|
     s.string :first_name
