@@ -12,10 +12,19 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema.define(version: 1) do
+<<<<<<< HEAD
     
       create_table "students", force: :cascade do |t|
         t.string "first_name"
         t.string "last_name"
       end
     
+=======
+
+  create_table "students", force: :cascade do |t|
+    t.string "first_name"
+    t.string "last_name"
+  end
+
+>>>>>>> 7f4d7219c1d2c938870bc604ccf745af1aa2a5c8
 end
