@@ -109,6 +109,7 @@ GEM
     rake (11.2.2)
     rdoc (4.2.2)
       json (~> 1.4)
+    require_all (1.4.0)
     rspec-core (3.5.1)
       rspec-support (~> 3.5.0)
     rspec-expectations (3.5.0)
@@ -171,6 +172,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.2.3)
+  require_all
   rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
@@ -181,4 +183,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.11.2
+   1.15.3
