@@ -8,3 +8,11 @@ Started GET "/" for ::1 at 2015-11-17 17:47:54 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/admin/.rvm/gems/ruby-2.1.2/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
 Completed 200 OK in 27ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+SQLite3::CorruptException: database disk image is malformed:           SELECT name
+          FROM sqlite_master
+          WHERE (type = 'table' OR type = 'view') AND NOT name = 'sqlite_sequence'
+ AND name = "schema_migrations"
+SQLite3::CorruptException: database disk image is malformed:           SELECT name
+          FROM sqlite_master
+          WHERE (type = 'table' OR type = 'view') AND NOT name = 'sqlite_sequence'
+ AND name = "schema_migrations"
