@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails rails-activerecord-model-rails-lab-v-000: test" uuid="0f3aed9d-0402-43ee-8458-e3c06597a371">
+      <auth-required>false</auth-required>
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails rails-activerecord-model-rails-lab-v-000: development" uuid="47662b2c-0f72-40b4-8a04-4cc9f4d55877">
+      <auth-required>false</auth-required>
+    </data-source>
+  </component>
+</project>
