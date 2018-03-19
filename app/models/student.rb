@@ -1,7 +1,12 @@
 class Student < ActiveRecord::Base
 
-	def student.to_s
-		@student = "#{student.first_name} + #{student.last_name}"
+	def initialize(student)
+		@student = student
+	end
+
+	def to_s(first_name, last_name)
+		student = Student.new
+		student.to_s("#{student.first_name} + #{student.last_name}")
 	end
 
 
