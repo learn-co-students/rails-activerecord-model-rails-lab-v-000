@@ -8,3 +8,59 @@ Started GET "/" for ::1 at 2015-11-17 17:47:54 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/admin/.rvm/gems/ruby-2.1.2/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
 Completed 200 OK in 27ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateStudents (20180322163723)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20180322163723"]]
+  [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 71.190.202.18 at 2018-03-22 16:43:02 +0000
+Cannot render console from 71.190.202.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 19ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.190.202.18 at 2018-03-22 16:43:03 +0000
+Cannot render console from 71.190.202.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for 71.190.202.18 at 2018-03-22 16:43:07 +0000
+Cannot render console from 71.190.202.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RosterController#welcome as HTML
+  Rendered roster/welcome.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 991ms (Views: 990.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 71.190.202.18 at 2018-03-22 16:43:08 +0000
+Cannot render console from 71.190.202.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 71.190.202.18 at 2018-03-22 16:43:08 +0000
+Cannot render console from 71.190.202.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 71.190.202.18 at 2018-03-22 16:43:08 +0000
+Cannot render console from 71.190.202.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 71.190.202.18 at 2018-03-22 16:43:08 +0000
+Cannot render console from 71.190.202.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 71.190.202.18 at 2018-03-22 16:43:08 +0000
+Cannot render console from 71.190.202.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/welcome" for 71.190.202.18 at 2018-03-22 16:44:10 +0000
+Cannot render console from 71.190.202.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RosterController#welcome as HTML
+  Rendered roster/welcome.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 51ms (Views: 13.8ms | ActiveRecord: 0.0ms)
