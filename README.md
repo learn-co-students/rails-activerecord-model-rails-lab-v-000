@@ -1,4 +1,4 @@
-# ActiveRecord Model Rails Lab
+i have # ActiveRecord Model Rails Lab
 
 ## Objectives
 
