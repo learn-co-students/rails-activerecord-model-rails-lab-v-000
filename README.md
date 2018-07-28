@@ -1,4 +1,4 @@
-# ActiveRecord Model Rails Lab
+rake# ActiveRecord Model Rails Lab
 
 ## Objectives
 
