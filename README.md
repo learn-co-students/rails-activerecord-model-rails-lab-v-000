@@ -1,4 +1,4 @@
-# ActiveRecord Model Rails Lab
+rails generate --help# ActiveRecord Model Rails Lab
 
 ## Objectives
 
