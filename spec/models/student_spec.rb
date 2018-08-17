@@ -16,5 +16,10 @@ RSpec.describe Student, type: :model do
     expect(student.last_name).to eq("Kevin")
   end
 
+  it 'has a full name' do
+    student = Student.create(first_name: "Kevin", last_name: "Chi")
+    expect(student.full_name).to eq("Kevin Chi")
+  end
+
 
 end

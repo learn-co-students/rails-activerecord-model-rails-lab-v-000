@@ -2,9 +2,9 @@ class Student < ActiveRecord::Base
 
   def shout
     "Hey!"
-  end 
+  end
 
-  def to_s
+  def full_name
     "#{first_name} #{last_name}"
   end
 end
