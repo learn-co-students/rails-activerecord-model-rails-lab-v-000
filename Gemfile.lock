@@ -170,7 +170,7 @@ DEPENDENCIES
   database_cleaner
   jbuilder (~> 2.0)
   jquery-rails
-  rails (= 4.2.3)
+  rails
   rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
@@ -181,4 +181,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.11.2
+   1.16.5
