@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+# Bundler error
+gem 'json', '1.8.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
