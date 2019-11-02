@@ -1,0 +1,6 @@
+class Student < ActiveRecord::Base
+  def to_s
+    "#{self.first_name} #{self.last_name}"
+    # Note: The self keyword isn't technically needed.
+  end
+end
