@@ -1,4 +1,6 @@
 # ActiveRecord Model Rails Lab
+# TEST
+
 
 ## Objectives
 
